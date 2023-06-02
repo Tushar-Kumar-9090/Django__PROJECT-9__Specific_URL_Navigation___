@@ -8,12 +8,12 @@
 </head>
 <body>
     <center>
-        <h1>This Is <span style="color: red">VIRAT</span> page</h1>
-        <h1><a href="{% url 'csk:dhoni' %}">Go to dhoni page</a></h1>
-        <h1><a href="{% url 'sehwag' %}" style="color: green">Go to sehwag page</a></h1>
+        <h1>This is <span style="color: blue">sehwag</span> Page</h1>
+        <h1><a href="{% url 'csk:dhoni' %}" style="color: red">Go to Dhoni Page</a></h1>
+        <h1><a href="{% url 'rcb:virat' %}" style="color: red" >Go to Virat Page</a></h1>
 
         <h1><a href="{% url 'csk:dhoni_strings' %}">Dhoni String</a></h1>
-        <h1><a href="{% url 'sehwag_string' %}" target="_blank">Sehwag String</a></h1>
+        <h1><a href="{% url 'rcb:virat_strings' %}" target="_blank">Virat String</a></h1>
 
     </center>
 </body>
